@@ -34,6 +34,10 @@ int main(int argc, char** argv)
                 
                 if(defense>0)
                 {
+                    if(theCard[i]->this->defense>theCard[i-1]->this->defense)
+                    {
+                        
+                    }
                 //Node* prevCard;
                 //Node* currCard;
                 theCards[i] = new Card(name, manaCost, attack, defense);
